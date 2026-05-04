@@ -1,0 +1,20 @@
+express is also node js  package which help us to create server .
+
+=> server create huya using 
+const app= express()( yaha par hum server instance create kar rahe hai jo ki appvariable mai store hoga)
+
+=> start server using 
+app.listen(3000)
+
+req, res==> client send request to server and server can accesss only if they have request. 
+when server wants to response client so it respone it by programing way.
+
+API=> application programming interface.
+It is a set of rule or protocol that allow different software application to communication and exchange data and functionality with each other.
+Q rest API=>
+resprestantional state tranfer api . it use http methods like get,put,post,path and delete.
+1. get=> server se data fetch karna ho ( jab data server par ho aur bo client ko bhjna hoo tab get method use karte hai )
+2. post=> server par data send karna ho (client to koi data send karna ho server par too bo post method use karta hai)
+3. patch=> server par data already ho aur u
+s data ko update karna ho to use karte hai patch method.
+4. delete=> serever par data hai aur usai delete karna ho to delete method.

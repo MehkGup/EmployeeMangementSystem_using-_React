@@ -16,7 +16,7 @@ const CreateTask = () => {
     const submitHandler = (e) => {
         e.preventDefault()
         // console.log(taskTitle,taskDescription,taskDate,asignTo,category)
-        setNewTask({taskTitle,taskDate,taskDescription,category,active:false,newTask:true ,failed:false,completed:false})
+        setNewTask({taskTitle, taskDate, taskDescription, category,active:false, newTask:true, failed:false, completed:false})
        const data = userData
        
        

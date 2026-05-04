@@ -1,0 +1,26 @@
+morgan, remicsicon.com 
+
+
+
+
+3 folder in src----> components, context, pages ,utils 
+context----> authcontext 2. taskcontext.jsx
+
+utils-----> localstorage.jsx
+
+components---->4 folder 
+1. Auth-----> login.jsx
+2. Dashboard-----------> AdminDashboard.jsx, Employeedashboard.jsx
+3.Tasklist------------->Accepttask.jsx, failedtask.jsx, Newtask.jsx, Completetask.jsx,Tasklist.jsx
+4. others-------> Header.jsx
+
+
+
+now we are doing towaybinding --> hum chahte hai ki humara form submit ho
+
+
+emoji add lkarne ke liye command ----> window key + .
+
+context api----> means hum data se rap kar daite hai
+
+https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BKv3dA2dJQAimexZGhJd4Tg%3D%3D

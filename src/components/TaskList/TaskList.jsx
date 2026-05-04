@@ -5,6 +5,9 @@ import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 
 const TaskList = ({ data }) => {
+    if (!data || !data.tasks) {
+    return <p>Loading tasks...</p>
+  }
   
   return (
     <div id="tasklist" className='h-[55%] overflow-x-auto flex items-center justify-start gap-5 py-5 flex-nowrap w-full mt-10'>
