@@ -15,7 +15,7 @@ const Login = ({handleLogin}) => {
     }
     return (
         <div className='flex  h-screen w-screen items-center justify-center'>
-            <div className='border-2 border-emerald-600 p-20 rounded-xl'>
+            <div className='border-2 border-transparent p-20 rounded-xl'>
                 <form
                     onSubmit={(e) => {
                         submitHandler(e)
@@ -27,15 +27,15 @@ const Login = ({handleLogin}) => {
                             setEmail(e.target.value)
                         }}
                         required
-                        className="outline-none bg-transparent border-2 border-emerald-600 rounded-full  text-xl py-3 px-5 placeholder:text-gray-400 " type="email" placeholder='Enter your email' />
+                        className="outline-none bg-transparent border-2 border-r-white rounded-lg  text-xl py-3 px-5 placeholder:text-gray-400 " type="email" placeholder='Enter your email' />
                     <input
                         value={password}
                         onChange={(e) => {
                             setPassword(e.target.value)
                         }}
                         required
-                        className="outline-none bg-transparent border-2 border-emerald-600 rounded-full  text-xl py-3 px-5 placeholder:text-gray-400 mt-3" type="password" placeholder='Enter password' />
-                    <button className=" text-white border-none outline-none  bg-emerald-600 rounded-full  text-xl py-3 px-5 mt-5  placeholder:text-white">Log in </button>
+                        className="outline-none bg-transparent border-2 border-r-white rounded-lg  text-xl py-3 px-5 placeholder:text-gray-400 mt-3" type="password" placeholder='Enter password' />
+                    <button className=" text-yellow-300 border-none outline-none  bg-white rounded-e-3xl  text-xl py-3 px-5 mt-5  placeholder:text-white">Log in </button>
                 </form>
             </div>
         </div>
